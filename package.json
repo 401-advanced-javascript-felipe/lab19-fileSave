@@ -1,0 +1,29 @@
+{
+  "name": "fileSave",
+  "version": "1.0.0",
+  "description": "## Project Name",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node app.js files/test.txt",
+    "startError": "node app.js files/test.tx",
+    "lint": "eslint \"app.js\" \"utils.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-felipe/lab19-fileSave.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-felipe/lab19-fileSave/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-felipe/lab19-fileSave#readme",
+  "dependencies": {
+    "@nmq/q": "^1.0.3",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0"
+  }
+}
