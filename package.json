@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --verbose --coverage",
     "start": "node app.js files/test.txt",
-    "startError": "node app.js files/test.tx"
+    "startError": "node app.js files/test.tx",
+    "lint": "eslint \"app.js\" \"utils.js\" "
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "dependencies": {
     "@nmq/q": "^1.0.3",
     "dotenv": "^8.0.0",
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0"
   }
 }
